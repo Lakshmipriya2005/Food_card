@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "name": "Margherita",
+      "amt": "249",
+      "shop": "Pizza Hut",
+      "ftype": "Pizza",
+      "pic": "images/margherita.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni",
+      "amt": "349",
+      "shop": "Domino's",
+      "ftype": "Pizza",
+      "pic": "images/pepperoni.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 3,
+      "name": "Chicken Wings",
+      "amt": "199",
+      "shop": "KFC",
+      "ftype": "Snack",
+      "pic": "images/chicken_wings.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 4,
+      "name": "Spaghetti Bolognese",
+      "amt": "399",
+      "shop": "Olive Garden",
+      "ftype": "Pasta",
+      "pic": "images/spaghetti_bolognese.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 5,
+      "name": "Caesar Salad",
+      "amt": "149",
+      "shop": "Subway",
+      "ftype": "Salad",
+      "pic": "images/caesar_salad.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 6,
+      "name": "Veggie Delight",
+      "amt": "299",
+      "shop": "Subway",
+      "ftype": "Sandwich",
+      "pic": "images/veggie.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 7,
+      "name": "Paneer Tikka",
+      "amt": "349",
+      "shop": "Biryani Blues",
+      "ftype": "Indian",
+      "pic": "images/paneer_tikka.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 8,
+      "name": "Butter Chicken",
+      "amt": "449",
+      "shop": "Punjabi Grill",
+      "ftype": "Indian",
+      "pic": "images/butter_chicken.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 9,
+      "name": "Chicken Biryani",
+      "amt": "399",
+      "shop": "Paradise",
+      "ftype": "Indian",
+      "pic": "images/chicken_biryani.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 10,
+      "name": "Chocolate Brownie",
+      "amt": "149",
+      "shop": "Theobroma",
+      "ftype": "Dessert",
+      "pic": "images/chocolate_brownie.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 11,
+      "name": "Mango Smoothie",
+      "amt": "199",
+      "shop": "Juice Junction",
+      "ftype": "Beverage",
+      "pic": "images/mango_smoothie.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 12,
+      "name": "French Fries",
+      "amt": "99",
+      "shop": "McDonald's",
+      "ftype": "Snack",
+      "pic": "images/french_fries.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 13,
+      "name": "Cheeseburger",
+      "amt": "249",
+      "shop": "Burger King",
+      "ftype": "Burger",
+      "pic": "images/cheeseburger.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 14,
+      "name": "Fish and Chips",
+      "amt": "349",
+      "shop": "Captain's Catch",
+      "ftype": "Seafood",
+      "pic": "images/fish_and_chips.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 15,
+      "name": "Tuna Salad",
+      "amt": "199",
+      "shop": "SaladStop",
+      "ftype": "Salad",
+      "pic": "images/tuna_salad.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 16,
+      "name": "Club Sandwich",
+      "amt": "299",
+      "shop": "Starbucks",
+      "ftype": "Sandwich",
+      "pic": "images/club_sandwich.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 17,
+      "name": "Hot Chocolate",
+      "amt": "149",
+      "shop": "Cafe Coffee Day",
+      "ftype": "Beverage",
+      "pic": "images/hot_chocolate.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 18,
+      "name": "Marinated Prawns",
+      "amt": "499",
+      "shop": "Coastal Delights",
+      "ftype": "Seafood",
+      "pic": "images/marinated_prawns.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 19,
+      "name": "Falafel Wrap",
+      "amt": "179",
+      "shop": "Mediterranean Bistro",
+      "ftype": "Snack",
+      "pic": "images/falafel_wrap.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 20,
+      "name": "Veggie Pizza",
+      "amt": "299",
+      "shop": "Pizza Hut",
+      "ftype": "Pizza",
+      "pic": "images/veggie_pizza.jpg",
+      "latest": "Yes"
+    }
+  ]
+  

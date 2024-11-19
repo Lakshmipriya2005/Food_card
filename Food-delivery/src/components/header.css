@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.navbar {
+    width: 100%;
+    height: 60px; /* Increased height for better visibility */
+    background-color: #f7c04a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box; /* Ensures proper padding handling */
+  }
+  
+  .logo {
+    color: white;
+    font-size: 28px; /* Slightly larger font for the logo */
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+  }
+  
+  .ul {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    gap: 20px; /* Space between menu items */
+  }
+  
+  .h a,
+  .first a,
+  .sec a {
+    color: white; /* Ensures text is white */
+    text-decoration: none; /* Removes underline */
+    font-size: 18px; /* Adjusted for better readability */
+    transition: color 0.3s; /* Smooth color transition on hover */
+    font-weight: 600;
+  }
+  
+  
+  
+  .sec {
+    display: flex;
+    align-items: center; /* Ensures alignment with the span */
+    gap: 5px; /* Adds space between span and link text */
+  }
+  
+  span {
+    display: inline-block;
+    height: 24px; /* Adjusted height for better size */
+    width: 24px; /* Adjusted width for better size */
+    line-height: 24px; /* Centers the text inside the circle */
+    border-radius: 50%;
+    font-size: 14px; /* Adjusted font size */
+    text-align: center;
+    background-color: crimson; /* Changed color for better contrast */
+    color: white; /* Ensures text inside is white */
+    font-weight: bold; /* Makes the text stand out */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stacks items for smaller screens */
+      height: auto;
+      padding: 10px;
+    }
+  
+    .ul {
+      gap: 10px; /* Reduces gap for smaller screens */
+    }
+  }
+  

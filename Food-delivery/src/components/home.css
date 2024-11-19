@@ -1,0 +1,114 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #3C3D37; /* Black background */
+}
+
+/* Home Container */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full-screen height */
+  background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836'); /* Replace with your food background */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px; /* Prevent content overflow on smaller screens */
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Text Section */
+.text-content {
+  max-width: 50%;
+  flex: 1 1 300px; /* Ensure flexibility for smaller screens */
+}
+
+.text-content h1 {
+  font-size: 2.5rem; /* Adjust size for smaller screens */
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f7c04a; /* Golden-yellow */
+}
+
+.text-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #f4f4f4; /* Light grey */
+
+}
+
+.cta-button {
+  background-color: #f7c04a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Image Section */
+.image-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: center;
+  gap: 10px; /* Reduce gap for smaller screens */
+}
+
+.image-section img {
+  width: 150px; /* Smaller size for responsiveness */
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f7c04a; /* Matches button color */
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-section img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .text-content {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+
+  .text-content h1 {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .image-section img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .content {
+    flex-direction: column; /* Stack content vertically */
+  }
+}
